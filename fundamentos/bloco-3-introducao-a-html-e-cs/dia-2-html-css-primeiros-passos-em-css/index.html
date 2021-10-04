@@ -6,26 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
     <style>
-        h1 {
-            color: orangered;
+        body {
+            font-size: 16px;
         }
 
-        #lista.cores {
-            background-color: green;
+
+        
+        h1 {
+            color: orangered;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-style: oblique;
+        }
+
+        #cores-lista {
+            background-color: green; 
+            color: white;
+            line-height: 50px;
+            text-align: center;
+            text-decoration: underline;
         }
 
         .titulo {
-            color: white; background-color: black;
+            color: white; 
+            background-color: black;
+            font-size: 3em;
+        }
+
+        #azul-texto {
+            background-color: blue;
+        }
+
+        #verde-texto {
+            background-color: green;
+        }
+
+        #laranja-texto {
+            background-color: orangered;
         }
     </style>
 </head>
 <body>
     <h1>Exercícios 3.2</h1>
     <p class="titulo">Qual é a sua cor favorita?</p>
-    <ul id="lista.cores">
-        <li>Azul</li>
-        <li>Verde</li>
-        <li>Laranja</li>
+
+    <ul id="cores-lista">
+        <li id="azul-texto">Azul</li>
+        <li id="verde-texto">Verde</li>
+        <li id="laranja-texto">Laranja</li>
     </ul>
 </body>
 </html>
