@@ -1,0 +1,19 @@
+body {
+    background-color: cadetblue;
+}
+
+.container{
+    max-width: 80%;
+}
+
+form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#curriculo {
+    background-color: white;
+    max-width: 70%;
+    margin-top: 10%;
+   
+}
